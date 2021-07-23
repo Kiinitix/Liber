@@ -19,7 +19,7 @@ if mycon.is_connected()==False:
 cursor=mycon.cursor() 
 
 C = Canvas(root, bg="blue", height=250, width=300)
-filename = PhotoImage(file = "C:\\Users\\KABIR\\Desktop\\DSC_Liber\\backgroundDefault.png")
+filename = PhotoImage(file = "<background-image-location")
 background_label = Label(root, image=filename)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
