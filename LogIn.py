@@ -11,7 +11,7 @@ root.geometry("300x300")
 root.title("Login Page")
 root.resizable(0,0)
 
-mycon=sqltor.connect(host="localhost", user="root", passwd="1234", database="root")
+mycon=sqltor.connect(host="localhost", user="<user-name>", passwd="<password>", database="<database-name>")
 if mycon.is_connected()==False:
     print("ERROR connecting to MySQL database!")
 
